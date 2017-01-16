@@ -104,7 +104,7 @@ found:
     p->lastref = p->ctime;
     p->rtime = 0;
     p->quanta_used = 0;
-    cprintf("%d'S CTIME SET TO %d\n", p->pid, p->ctime);
+//    cprintf("%d'S CTIME SET TO %d\n", p->pid, p->ctime);
     //MANUALLY ADDED
 
   release(&ptable.lock);
@@ -281,8 +281,8 @@ exit(void)
 
     //MANUALLY
     proc->etime = ticks;
-    cprintf("%d's ETIME SET TO %d\n", proc->pid, proc->etime);
-    cprintf("%d's RTIME IS %d\n", proc->pid, proc->rtime);
+//    cprintf("%d's ETIME SET TO %d\n", proc->pid, proc->etime);
+//    cprintf("%d's RTIME IS %d\n", proc->pid, proc->rtime);
     //MANUALLY
 
   // Jump into the scheduler, never to return.
@@ -417,7 +417,7 @@ scheduler(void)
                     proc = p;
                     switchuvm(p);
                     p->state = RUNNING;
-                    cprintf("EXECUTING #%d\n", p->pid);
+//                    cprintf("EXECUTING #%d\n", p->pid);
                     swtch(&cpu->scheduler, p->context);
                     switchkvm();
 
@@ -442,7 +442,7 @@ scheduler(void)
                 for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
                     if(p->state != RUNNABLE || p->lastref > minref)
                         continue;
-                    cprintf("EXECUTING #%d\n", p->pid);
+//                    cprintf("EXECUTING #%d\n", p->pid);
                     // Switch to chosen process. It is the process's job
                     // to release ptable.lock and then reacquire it
                     // before jumping back to us.
@@ -488,7 +488,7 @@ scheduler(void)
                     proc = p;
                     switchuvm(p);
                     p->state = RUNNING;
-                    cprintf("EXECUTING #%d\n", p->pid);
+//                    cprintf("EXECUTING #%d\n", p->pid);
                     swtch(&cpu->scheduler, p->context);
                     switchkvm();
 

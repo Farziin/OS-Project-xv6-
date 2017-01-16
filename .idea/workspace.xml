@@ -11,9 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a3211ac-f38a-440d-8fbb-39ca2fa01aa4" name="Default" comment="">
+    <list default="true" id="7a3211ac-f38a-440d-8fbb-39ca2fa01aa4" name="Default" comment="unnecessary prints cleaned">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xv6_files/RRsanity.c" afterPath="$PROJECT_DIR$/xv6_files/RRsanity.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xv6_files/proc.c" afterPath="$PROJECT_DIR$/xv6_files/proc.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xv6_files/trap.c" afterPath="$PROJECT_DIR$/xv6_files/trap.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,21 +41,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RRsanity.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RRsanity.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xv6_files/RRsanity.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+            <state relative-caret-position="478">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="proc.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="kernel.asm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xv6_files/kernel.asm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="11399" column="18" lean-forward="false" selection-start-line="11399" selection-start-column="18" selection-end-line="11399" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trap.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xv6_files/trap.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proc.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xv6_files/proc.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8028">
-              <caret line="446" column="33" lean-forward="false" selection-start-line="446" selection-start-column="26" selection-end-line="446" selection-end-column="33" />
+            <state relative-caret-position="375">
+              <caret line="665" column="33" lean-forward="true" selection-start-line="665" selection-start-column="33" selection-end-line="665" selection-end-column="33" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -97,6 +119,10 @@
     <findStrings>
       <find>argptr</find>
       <find>scheduler</find>
+      <find>PROC PID</find>
+      <find>EXECUTING #</find>
+      <find>ETIME SET</find>
+      <find>CTIME S</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,6 +135,8 @@
         <option value="$PROJECT_DIR$/xv6_files/Makefile" />
         <option value="$PROJECT_DIR$/xv6_files/sysproc.c" />
         <option value="$PROJECT_DIR$/xv6_files/RRsanity.c" />
+        <option value="$PROJECT_DIR$/xv6_files/proc.c" />
+        <option value="$PROJECT_DIR$/xv6_files/trap.c" />
       </list>
     </option>
   </component>
@@ -369,7 +397,7 @@
       <workItem from="1484574729766" duration="257000" />
       <workItem from="1484574994118" duration="1109000" />
       <workItem from="1484580503336" duration="2482000" />
-      <workItem from="1484583869343" duration="359000" />
+      <workItem from="1484583869343" duration="1362000" />
     </task>
     <task id="LOCAL-00001" summary="cmake added&#10;wait2 fixed&#10;waittest added to makefile">
       <created>1484581096357</created>
@@ -392,11 +420,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484584063806</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sanity test of Round Robin added">
+      <created>1484584464661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1484584464661</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4207000" />
+    <option name="totallyTimeSpent" value="5210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -407,6 +442,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3183716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32881" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -417,7 +453,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -431,7 +466,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cmake added&#10;wait2 fixed&#10;waittest added to makefile" />
     <MESSAGE value="sanity test of Round Robin added" />
-    <option name="LAST_COMMIT_MESSAGE" value="sanity test of Round Robin added" />
+    <MESSAGE value="unnecessary prints cleaned" />
+    <option name="LAST_COMMIT_MESSAGE" value="unnecessary prints cleaned" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -492,6 +528,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -514,6 +551,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -530,6 +568,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -544,6 +583,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="110" column="28" lean-forward="false" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -551,6 +591,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -558,6 +599,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="149" column="16" lean-forward="false" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -566,16 +608,6 @@
         <state relative-caret-position="972">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xv6_files/proc.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8028">
-          <caret line="446" column="33" lean-forward="false" selection-start-line="446" selection-start-column="26" selection-end-line="446" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -603,11 +635,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/xv6_files/kernel.asm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="11399" column="18" lean-forward="false" selection-start-line="11399" selection-start-column="18" selection-end-line="11399" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xv6_files/RRsanity.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+        <state relative-caret-position="478">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xv6_files/trap.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xv6_files/proc.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="665" column="33" lean-forward="true" selection-start-line="665" selection-start-column="33" selection-end-line="665" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

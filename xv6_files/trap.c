@@ -55,7 +55,7 @@ switch(tf->trapno){
         if (proc){
             proc->rtime = proc->rtime + 1;
             proc->quanta_used = proc->quanta_used + 1;
-            cprintf(">>PROC PID #%d, QUANTA:%d\n", proc->pid, proc->quanta_used);
+//            cprintf(">>PROC PID #%d, QUANTA:%d\n", proc->pid, proc->quanta_used);
         }
         //MANUALLY
       ticks++;

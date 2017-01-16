@@ -22,6 +22,7 @@ print_sth()
 void
 RRsanity(void)
 {
+
     int wTime[CHILD_NUMBER];
     int rTime[CHILD_NUMBER];
     int pid[CHILD_NUMBER];
