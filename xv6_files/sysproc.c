@@ -98,11 +98,12 @@ sys_getppid(void){
 
 int
 sys_wait2(void){
-    int wtime;
-    int rtime;
-    if(argptr(0, (char **)&wtime, sizeof(int)) < 0)
+    int *wtime;
+    int *rtime;
+    if(argptr(0, (void *)&wtime, sizeof(int)) < 0)
         return -1;
-    if(argptr(1, (char **)&rtime, sizeof(int)) < 0)
+    if(argptr(1, (void *)&rtime, sizeof(int)) < 0)
         return -1;
-    return wait2(&wtime, &rtime);
+    int pid = wait2(wtime, rtime);
+    return pid;
 }
