@@ -1,0 +1,15 @@
+/home/hossein/Downloads/clion-2016.3.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/hossein/CLionProjects/OS-Project-xv6-
+-- Configuring done
+CMake Error at CMakeLists.txt:271 (add_executable):
+  Cannot find source file:
+
+    xv6_files/_cat
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: OS_Project_xv6_
+CMake Error: Cannot determine link language for target "OS_Project_xv6_".
+-- Generating done
+-- Build files have been written to: /home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug
