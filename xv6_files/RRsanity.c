@@ -12,7 +12,8 @@
 void
 print_sth()
 {
-    for (int i = 0; i < N; ++i) {
+    int i;
+    for (i = 0; i < N; ++i) {
         printf(1, "Child %d prints for the %d time.\n", getpid(), i);
     }
 
@@ -25,7 +26,8 @@ RRsanity(void)
     int rTime[CHILD_NUMBER];
     int pid[CHILD_NUMBER];
 
-    for (int i = 0; i < CHILD_NUMBER; i++) {
+    int i;
+    for (i = 0; i < CHILD_NUMBER; i++) {
         pid[i] = fork();
         if(pid[i] == 0){
             print_sth();
@@ -33,11 +35,13 @@ RRsanity(void)
         }
     }
 
-    for (int j = 0; j < CHILD_NUMBER; ++j) {
+    int j;
+    for (j = 0; j < CHILD_NUMBER; ++j) {
         wait2(&wTime[j], &rTime[j]);
     }
 
-    for (int k = 0; k < CHILD_NUMBER; ++k) {
+    int k;
+    for (k = 0; k < CHILD_NUMBER; ++k) {
         printf(1, "The waittime of %d child is %d\n", k, wTime[k]);
         printf(1, "The runtime of %d child is %d\n", k, rTime[k]);
     }
