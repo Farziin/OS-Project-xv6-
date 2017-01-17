@@ -57,7 +57,1509 @@ include CMakeFiles/OS_Project_xv6_.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OS_Project_xv6_.dir/flags.make
 
-CMakeFiles/OS_Project_xv6_.dir/requires:
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.o: ../xv6_files/bio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bio.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bio.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bio.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.o: ../xv6_files/bootmain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bootmain.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bootmain.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bootmain.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.o: ../xv6_files/cat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/cat.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/cat.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/cat.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.o: ../xv6_files/console.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/console.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/console.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/console.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.o: ../xv6_files/echo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/echo.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/echo.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/echo.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.o: ../xv6_files/exec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/exec.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/exec.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/exec.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.o: ../xv6_files/file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/file.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/file.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/file.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.o: ../xv6_files/forktest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/forktest.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/forktest.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/forktest.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.o: ../xv6_files/fs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/fs.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/fs.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/fs.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.o: ../xv6_files/grep.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/grep.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/grep.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/grep.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.o: ../xv6_files/ide.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ide.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ide.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ide.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.o: ../xv6_files/init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/init.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/init.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/init.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.o: ../xv6_files/ioapic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ioapic.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ioapic.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ioapic.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.o: ../xv6_files/kalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kalloc.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kalloc.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kalloc.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.o: ../xv6_files/kbd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kbd.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kbd.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kbd.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.o: ../xv6_files/kill.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kill.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kill.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kill.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.o: ../xv6_files/lapic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/lapic.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/lapic.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/lapic.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.o: ../xv6_files/ln.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ln.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ln.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ln.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.o: ../xv6_files/log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/log.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/log.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/log.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.o: ../xv6_files/ls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ls.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ls.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ls.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.o: ../xv6_files/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/main.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/main.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/main.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.o: ../xv6_files/memide.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/memide.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/memide.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/memide.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.o: ../xv6_files/mkdir.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mkdir.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mkdir.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mkdir.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.o: ../xv6_files/mkfs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mkfs.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mkfs.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mkfs.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.o: ../xv6_files/mp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mp.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mp.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mp.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.o: ../xv6_files/picirq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/picirq.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/picirq.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/picirq.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.o: ../xv6_files/pipe.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/pipe.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/pipe.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/pipe.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.o: ../xv6_files/printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/printf.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/printf.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/printf.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.o: ../xv6_files/proc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/proc.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/proc.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/proc.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.o: ../xv6_files/rm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/rm.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/rm.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/rm.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.o: ../xv6_files/sh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sh.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sh.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sh.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.o: ../xv6_files/sleeplock.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sleeplock.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sleeplock.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sleeplock.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.o: ../xv6_files/spinlock.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/spinlock.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/spinlock.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/spinlock.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.o: ../xv6_files/stressfs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/stressfs.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/stressfs.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/stressfs.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.o: ../xv6_files/string.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/string.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/string.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/string.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.o: ../xv6_files/syscall.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/syscall.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/syscall.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/syscall.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.o: ../xv6_files/sysfile.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sysfile.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sysfile.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sysfile.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.o: ../xv6_files/sysproc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sysproc.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sysproc.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sysproc.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.o: ../xv6_files/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/timer.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/timer.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/timer.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.o: ../xv6_files/trap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/trap.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/trap.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/trap.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.o: ../xv6_files/uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/uart.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/uart.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/uart.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.o: ../xv6_files/ulib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ulib.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ulib.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ulib.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.o: ../xv6_files/umalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/umalloc.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/umalloc.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/umalloc.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.o: ../xv6_files/usertests.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/usertests.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/usertests.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/usertests.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.o: ../xv6_files/vm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/vm.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/vm.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/vm.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.o: ../xv6_files/wc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/wc.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/wc.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/wc.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.o: ../xv6_files/zombie.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/zombie.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/zombie.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/zombie.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.o: ../xv6_files/getppid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/getppid.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/getppid.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/getppid.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.o: ../xv6_files/RRsanity.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/RRsanity.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/RRsanity.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/RRsanity.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.o: ../xv6_files/frrTest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/frrTest.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/frrTest.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/frrTest.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.o
+
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.o: CMakeFiles/OS_Project_xv6_.dir/flags.make
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.o: ../xv6_files/Gsanity.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.o   -c /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/Gsanity.c
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/Gsanity.c > CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.i
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/Gsanity.c -o CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.s
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.o.requires:
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.o.requires
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.o.provides: CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.o.requires
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.o.provides.build
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.o.provides
+
+CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.o.provides.build: CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.o
+
+
+# Object files for target OS_Project_xv6_
+OS_Project_xv6__OBJECTS = \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.o" \
+"CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.o"
+
+# External object files for target OS_Project_xv6_
+OS_Project_xv6__EXTERNAL_OBJECTS = \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bio.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bootasm.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bootblock.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bootblockother.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bootmain.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/cat.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/console.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/echo.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/entry.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/entryother.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/exec.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/file.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/forktest.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/fs.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/grep.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ide.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/init.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/initcode.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ioapic.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kalloc.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kbd.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kill.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/lapic.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ln.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/log.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ls.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/main.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mkdir.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mp.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/picirq.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/pipe.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/printf.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/proc.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/rm.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sh.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sleeplock.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/spinlock.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/stressfs.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/string.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/swtch.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/syscall.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sysfile.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sysproc.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/timer.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/trap.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/trapasm.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/uart.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ulib.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/umalloc.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/usertests.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/usys.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/vectors.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/vm.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/wc.o" \
+"/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/zombie.o"
+
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.o
+OS_Project_xv6_: ../xv6_files/bio.o
+OS_Project_xv6_: ../xv6_files/bootasm.o
+OS_Project_xv6_: ../xv6_files/bootblock.o
+OS_Project_xv6_: ../xv6_files/bootblockother.o
+OS_Project_xv6_: ../xv6_files/bootmain.o
+OS_Project_xv6_: ../xv6_files/cat.o
+OS_Project_xv6_: ../xv6_files/console.o
+OS_Project_xv6_: ../xv6_files/echo.o
+OS_Project_xv6_: ../xv6_files/entry.o
+OS_Project_xv6_: ../xv6_files/entryother.o
+OS_Project_xv6_: ../xv6_files/exec.o
+OS_Project_xv6_: ../xv6_files/file.o
+OS_Project_xv6_: ../xv6_files/forktest.o
+OS_Project_xv6_: ../xv6_files/fs.o
+OS_Project_xv6_: ../xv6_files/grep.o
+OS_Project_xv6_: ../xv6_files/ide.o
+OS_Project_xv6_: ../xv6_files/init.o
+OS_Project_xv6_: ../xv6_files/initcode.o
+OS_Project_xv6_: ../xv6_files/ioapic.o
+OS_Project_xv6_: ../xv6_files/kalloc.o
+OS_Project_xv6_: ../xv6_files/kbd.o
+OS_Project_xv6_: ../xv6_files/kill.o
+OS_Project_xv6_: ../xv6_files/lapic.o
+OS_Project_xv6_: ../xv6_files/ln.o
+OS_Project_xv6_: ../xv6_files/log.o
+OS_Project_xv6_: ../xv6_files/ls.o
+OS_Project_xv6_: ../xv6_files/main.o
+OS_Project_xv6_: ../xv6_files/mkdir.o
+OS_Project_xv6_: ../xv6_files/mp.o
+OS_Project_xv6_: ../xv6_files/picirq.o
+OS_Project_xv6_: ../xv6_files/pipe.o
+OS_Project_xv6_: ../xv6_files/printf.o
+OS_Project_xv6_: ../xv6_files/proc.o
+OS_Project_xv6_: ../xv6_files/rm.o
+OS_Project_xv6_: ../xv6_files/sh.o
+OS_Project_xv6_: ../xv6_files/sleeplock.o
+OS_Project_xv6_: ../xv6_files/spinlock.o
+OS_Project_xv6_: ../xv6_files/stressfs.o
+OS_Project_xv6_: ../xv6_files/string.o
+OS_Project_xv6_: ../xv6_files/swtch.o
+OS_Project_xv6_: ../xv6_files/syscall.o
+OS_Project_xv6_: ../xv6_files/sysfile.o
+OS_Project_xv6_: ../xv6_files/sysproc.o
+OS_Project_xv6_: ../xv6_files/timer.o
+OS_Project_xv6_: ../xv6_files/trap.o
+OS_Project_xv6_: ../xv6_files/trapasm.o
+OS_Project_xv6_: ../xv6_files/uart.o
+OS_Project_xv6_: ../xv6_files/ulib.o
+OS_Project_xv6_: ../xv6_files/umalloc.o
+OS_Project_xv6_: ../xv6_files/usertests.o
+OS_Project_xv6_: ../xv6_files/usys.o
+OS_Project_xv6_: ../xv6_files/vectors.o
+OS_Project_xv6_: ../xv6_files/vm.o
+OS_Project_xv6_: ../xv6_files/wc.o
+OS_Project_xv6_: ../xv6_files/zombie.o
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/build.make
+OS_Project_xv6_: CMakeFiles/OS_Project_xv6_.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Linking C executable OS_Project_xv6_"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OS_Project_xv6_.dir/link.txt --verbose=$(VERBOSE)
+
+# Rule to build all files generated by this target.
+CMakeFiles/OS_Project_xv6_.dir/build: OS_Project_xv6_
+
+.PHONY : CMakeFiles/OS_Project_xv6_.dir/build
+
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.o.requires
+CMakeFiles/OS_Project_xv6_.dir/requires: CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.o.requires
 
 .PHONY : CMakeFiles/OS_Project_xv6_.dir/requires
 

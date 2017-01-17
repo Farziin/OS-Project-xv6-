@@ -2,19 +2,18 @@
 // Created by hossein on 1/16/17.
 //
 
-// Test that fork fails gracefully.
-// Tiny executable so that the limit can be filling the proc table.
+//Test round robin policy
 
 #include "user.h"
 #define CHILD_NUMBER 10
 #define N  1000
 
 void
-print_sth()
+print_sth(int number)
 {
     int i;
     for (i = 0; i < N; ++i) {
-        printf(1, "Child %d prints for the %d time.\n", getpid(), i);
+        printf(1, "Child %d prints for the %d time.\n", number, i);
     }
 
 }
@@ -31,7 +30,7 @@ RRsanity(void)
     for (i = 0; i < CHILD_NUMBER; i++) {
         pid[i] = fork();
         if(pid[i] == 0){
-            print_sth();
+            print_sth(i);
             exit();
         }
     }

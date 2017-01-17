@@ -84,6 +84,801 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/BUGS">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/Gsanity.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/LICENSE">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/Makefile">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/Notes">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/README">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/RRsanity.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/TRICKS">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/_cat">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/_echo">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/_forktest">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/_grep">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/_init">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/_kill">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/_ln">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/_ls">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/_mkdir">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/_rm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/_sh">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/_stressfs">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/_usertests">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/_wc">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/_zombie">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/asm.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bio.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bio.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bio.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bootasm.S">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bootasm.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bootasm.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bootblock">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bootblock.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bootblock.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bootblockother.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bootmain.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bootmain.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/bootmain.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/buf.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/cat.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/cat.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/cat.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/cat.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/cat.sym">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/console.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/console.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/console.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/cuth">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/date.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/defs.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/dot-bochsrc">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/echo.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/echo.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/echo.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/echo.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/echo.sym">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/elf.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/entry.S">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/entry.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/entryother">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/entryother.S">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/entryother.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/entryother.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/entryother.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/exec.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/exec.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/exec.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/fcntl.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/file.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/file.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/file.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/file.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/forktest.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/forktest.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/forktest.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/forktest.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/frrTest.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/fs.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/fs.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/fs.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/fs.img">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/fs.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/gdbutil">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/getppid.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/grep.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/grep.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/grep.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/grep.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/grep.sym">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ide.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ide.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ide.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/init.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/init.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/init.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/init.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/init.sym">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/initcode">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/initcode.S">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/initcode.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/initcode.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/initcode.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/initcode.out">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ioapic.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ioapic.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ioapic.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kalloc.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kalloc.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kalloc.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kbd.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kbd.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kbd.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kbd.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kernel">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kernel.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kernel.ld">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kernel.sym">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kill.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kill.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kill.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kill.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/kill.sym">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/lapic.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/lapic.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/lapic.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ln.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ln.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ln.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ln.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ln.sym">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/log.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/log.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/log.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ls.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ls.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ls.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ls.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ls.sym">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/main.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/main.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/main.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/memide.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/memlayout.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mkdir.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mkdir.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mkdir.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mkdir.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mkdir.sym">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mkfs">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mkfs.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mmu.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mp.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mp.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mp.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/mp.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/param.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/picirq.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/picirq.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/picirq.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/pipe.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/pipe.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/pipe.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/pr.pl">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/printf.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/printf.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/printf.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/printpcs">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/proc.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/proc.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/proc.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/proc.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/rm.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/rm.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/rm.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/rm.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/rm.sym">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/runoff">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/runoff.list">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/runoff.spec">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/runoff1">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sh.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sh.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sh.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sh.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sh.sym">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/show1">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sign.pl">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sleep1.p">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sleeplock.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sleeplock.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sleeplock.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sleeplock.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/spinlock.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/spinlock.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/spinlock.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/spinlock.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/spinp">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/stat.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/stressfs.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/stressfs.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/stressfs.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/stressfs.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/stressfs.sym">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/string.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/string.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/string.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/swtch.S">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/swtch.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/symlink.patch">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/syscall.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/syscall.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/syscall.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/syscall.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sysfile.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sysfile.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sysfile.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sysproc.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sysproc.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sysproc.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/timer.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/timer.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/timer.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/toc.ftr">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/toc.hdr">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/trap.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/trap.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/trap.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/trapasm.S">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/trapasm.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/traps.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/types.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/uart.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/uart.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/uart.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ulib.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ulib.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/ulib.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/umalloc.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/umalloc.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/umalloc.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/user.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/usertests.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/usertests.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/usertests.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/usertests.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/usertests.sym">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/usys.S">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/usys.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/vectors.S">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/vectors.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/vectors.pl">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/vm.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/vm.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/vm.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/wc.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/wc.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/wc.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/wc.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/wc.sym">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/x86.h">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/xv6.img">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/zombie.asm">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/zombie.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/zombie.d">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/zombie.o">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/zombie.sym">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
 		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

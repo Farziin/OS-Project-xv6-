@@ -123,6 +123,1383 @@ OS_Project_xv6_/fast:
 	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/build
 .PHONY : OS_Project_xv6_/fast
 
+xv6_files/Gsanity.o: xv6_files/Gsanity.c.o
+
+.PHONY : xv6_files/Gsanity.o
+
+# target to build an object file
+xv6_files/Gsanity.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.o
+.PHONY : xv6_files/Gsanity.c.o
+
+xv6_files/Gsanity.i: xv6_files/Gsanity.c.i
+
+.PHONY : xv6_files/Gsanity.i
+
+# target to preprocess a source file
+xv6_files/Gsanity.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.i
+.PHONY : xv6_files/Gsanity.c.i
+
+xv6_files/Gsanity.s: xv6_files/Gsanity.c.s
+
+.PHONY : xv6_files/Gsanity.s
+
+# target to generate assembly for a file
+xv6_files/Gsanity.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.s
+.PHONY : xv6_files/Gsanity.c.s
+
+xv6_files/RRsanity.o: xv6_files/RRsanity.c.o
+
+.PHONY : xv6_files/RRsanity.o
+
+# target to build an object file
+xv6_files/RRsanity.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.o
+.PHONY : xv6_files/RRsanity.c.o
+
+xv6_files/RRsanity.i: xv6_files/RRsanity.c.i
+
+.PHONY : xv6_files/RRsanity.i
+
+# target to preprocess a source file
+xv6_files/RRsanity.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.i
+.PHONY : xv6_files/RRsanity.c.i
+
+xv6_files/RRsanity.s: xv6_files/RRsanity.c.s
+
+.PHONY : xv6_files/RRsanity.s
+
+# target to generate assembly for a file
+xv6_files/RRsanity.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.s
+.PHONY : xv6_files/RRsanity.c.s
+
+xv6_files/bio.o: xv6_files/bio.c.o
+
+.PHONY : xv6_files/bio.o
+
+# target to build an object file
+xv6_files/bio.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.o
+.PHONY : xv6_files/bio.c.o
+
+xv6_files/bio.i: xv6_files/bio.c.i
+
+.PHONY : xv6_files/bio.i
+
+# target to preprocess a source file
+xv6_files/bio.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.i
+.PHONY : xv6_files/bio.c.i
+
+xv6_files/bio.s: xv6_files/bio.c.s
+
+.PHONY : xv6_files/bio.s
+
+# target to generate assembly for a file
+xv6_files/bio.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/bio.c.s
+.PHONY : xv6_files/bio.c.s
+
+xv6_files/bootmain.o: xv6_files/bootmain.c.o
+
+.PHONY : xv6_files/bootmain.o
+
+# target to build an object file
+xv6_files/bootmain.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.o
+.PHONY : xv6_files/bootmain.c.o
+
+xv6_files/bootmain.i: xv6_files/bootmain.c.i
+
+.PHONY : xv6_files/bootmain.i
+
+# target to preprocess a source file
+xv6_files/bootmain.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.i
+.PHONY : xv6_files/bootmain.c.i
+
+xv6_files/bootmain.s: xv6_files/bootmain.c.s
+
+.PHONY : xv6_files/bootmain.s
+
+# target to generate assembly for a file
+xv6_files/bootmain.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/bootmain.c.s
+.PHONY : xv6_files/bootmain.c.s
+
+xv6_files/cat.o: xv6_files/cat.c.o
+
+.PHONY : xv6_files/cat.o
+
+# target to build an object file
+xv6_files/cat.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.o
+.PHONY : xv6_files/cat.c.o
+
+xv6_files/cat.i: xv6_files/cat.c.i
+
+.PHONY : xv6_files/cat.i
+
+# target to preprocess a source file
+xv6_files/cat.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.i
+.PHONY : xv6_files/cat.c.i
+
+xv6_files/cat.s: xv6_files/cat.c.s
+
+.PHONY : xv6_files/cat.s
+
+# target to generate assembly for a file
+xv6_files/cat.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/cat.c.s
+.PHONY : xv6_files/cat.c.s
+
+xv6_files/console.o: xv6_files/console.c.o
+
+.PHONY : xv6_files/console.o
+
+# target to build an object file
+xv6_files/console.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.o
+.PHONY : xv6_files/console.c.o
+
+xv6_files/console.i: xv6_files/console.c.i
+
+.PHONY : xv6_files/console.i
+
+# target to preprocess a source file
+xv6_files/console.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.i
+.PHONY : xv6_files/console.c.i
+
+xv6_files/console.s: xv6_files/console.c.s
+
+.PHONY : xv6_files/console.s
+
+# target to generate assembly for a file
+xv6_files/console.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/console.c.s
+.PHONY : xv6_files/console.c.s
+
+xv6_files/echo.o: xv6_files/echo.c.o
+
+.PHONY : xv6_files/echo.o
+
+# target to build an object file
+xv6_files/echo.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.o
+.PHONY : xv6_files/echo.c.o
+
+xv6_files/echo.i: xv6_files/echo.c.i
+
+.PHONY : xv6_files/echo.i
+
+# target to preprocess a source file
+xv6_files/echo.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.i
+.PHONY : xv6_files/echo.c.i
+
+xv6_files/echo.s: xv6_files/echo.c.s
+
+.PHONY : xv6_files/echo.s
+
+# target to generate assembly for a file
+xv6_files/echo.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/echo.c.s
+.PHONY : xv6_files/echo.c.s
+
+xv6_files/exec.o: xv6_files/exec.c.o
+
+.PHONY : xv6_files/exec.o
+
+# target to build an object file
+xv6_files/exec.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.o
+.PHONY : xv6_files/exec.c.o
+
+xv6_files/exec.i: xv6_files/exec.c.i
+
+.PHONY : xv6_files/exec.i
+
+# target to preprocess a source file
+xv6_files/exec.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.i
+.PHONY : xv6_files/exec.c.i
+
+xv6_files/exec.s: xv6_files/exec.c.s
+
+.PHONY : xv6_files/exec.s
+
+# target to generate assembly for a file
+xv6_files/exec.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/exec.c.s
+.PHONY : xv6_files/exec.c.s
+
+xv6_files/file.o: xv6_files/file.c.o
+
+.PHONY : xv6_files/file.o
+
+# target to build an object file
+xv6_files/file.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.o
+.PHONY : xv6_files/file.c.o
+
+xv6_files/file.i: xv6_files/file.c.i
+
+.PHONY : xv6_files/file.i
+
+# target to preprocess a source file
+xv6_files/file.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.i
+.PHONY : xv6_files/file.c.i
+
+xv6_files/file.s: xv6_files/file.c.s
+
+.PHONY : xv6_files/file.s
+
+# target to generate assembly for a file
+xv6_files/file.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/file.c.s
+.PHONY : xv6_files/file.c.s
+
+xv6_files/forktest.o: xv6_files/forktest.c.o
+
+.PHONY : xv6_files/forktest.o
+
+# target to build an object file
+xv6_files/forktest.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.o
+.PHONY : xv6_files/forktest.c.o
+
+xv6_files/forktest.i: xv6_files/forktest.c.i
+
+.PHONY : xv6_files/forktest.i
+
+# target to preprocess a source file
+xv6_files/forktest.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.i
+.PHONY : xv6_files/forktest.c.i
+
+xv6_files/forktest.s: xv6_files/forktest.c.s
+
+.PHONY : xv6_files/forktest.s
+
+# target to generate assembly for a file
+xv6_files/forktest.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/forktest.c.s
+.PHONY : xv6_files/forktest.c.s
+
+xv6_files/frrTest.o: xv6_files/frrTest.c.o
+
+.PHONY : xv6_files/frrTest.o
+
+# target to build an object file
+xv6_files/frrTest.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.o
+.PHONY : xv6_files/frrTest.c.o
+
+xv6_files/frrTest.i: xv6_files/frrTest.c.i
+
+.PHONY : xv6_files/frrTest.i
+
+# target to preprocess a source file
+xv6_files/frrTest.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.i
+.PHONY : xv6_files/frrTest.c.i
+
+xv6_files/frrTest.s: xv6_files/frrTest.c.s
+
+.PHONY : xv6_files/frrTest.s
+
+# target to generate assembly for a file
+xv6_files/frrTest.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.s
+.PHONY : xv6_files/frrTest.c.s
+
+xv6_files/fs.o: xv6_files/fs.c.o
+
+.PHONY : xv6_files/fs.o
+
+# target to build an object file
+xv6_files/fs.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.o
+.PHONY : xv6_files/fs.c.o
+
+xv6_files/fs.i: xv6_files/fs.c.i
+
+.PHONY : xv6_files/fs.i
+
+# target to preprocess a source file
+xv6_files/fs.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.i
+.PHONY : xv6_files/fs.c.i
+
+xv6_files/fs.s: xv6_files/fs.c.s
+
+.PHONY : xv6_files/fs.s
+
+# target to generate assembly for a file
+xv6_files/fs.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/fs.c.s
+.PHONY : xv6_files/fs.c.s
+
+xv6_files/getppid.o: xv6_files/getppid.c.o
+
+.PHONY : xv6_files/getppid.o
+
+# target to build an object file
+xv6_files/getppid.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.o
+.PHONY : xv6_files/getppid.c.o
+
+xv6_files/getppid.i: xv6_files/getppid.c.i
+
+.PHONY : xv6_files/getppid.i
+
+# target to preprocess a source file
+xv6_files/getppid.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.i
+.PHONY : xv6_files/getppid.c.i
+
+xv6_files/getppid.s: xv6_files/getppid.c.s
+
+.PHONY : xv6_files/getppid.s
+
+# target to generate assembly for a file
+xv6_files/getppid.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/getppid.c.s
+.PHONY : xv6_files/getppid.c.s
+
+xv6_files/grep.o: xv6_files/grep.c.o
+
+.PHONY : xv6_files/grep.o
+
+# target to build an object file
+xv6_files/grep.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.o
+.PHONY : xv6_files/grep.c.o
+
+xv6_files/grep.i: xv6_files/grep.c.i
+
+.PHONY : xv6_files/grep.i
+
+# target to preprocess a source file
+xv6_files/grep.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.i
+.PHONY : xv6_files/grep.c.i
+
+xv6_files/grep.s: xv6_files/grep.c.s
+
+.PHONY : xv6_files/grep.s
+
+# target to generate assembly for a file
+xv6_files/grep.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/grep.c.s
+.PHONY : xv6_files/grep.c.s
+
+xv6_files/ide.o: xv6_files/ide.c.o
+
+.PHONY : xv6_files/ide.o
+
+# target to build an object file
+xv6_files/ide.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.o
+.PHONY : xv6_files/ide.c.o
+
+xv6_files/ide.i: xv6_files/ide.c.i
+
+.PHONY : xv6_files/ide.i
+
+# target to preprocess a source file
+xv6_files/ide.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.i
+.PHONY : xv6_files/ide.c.i
+
+xv6_files/ide.s: xv6_files/ide.c.s
+
+.PHONY : xv6_files/ide.s
+
+# target to generate assembly for a file
+xv6_files/ide.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ide.c.s
+.PHONY : xv6_files/ide.c.s
+
+xv6_files/init.o: xv6_files/init.c.o
+
+.PHONY : xv6_files/init.o
+
+# target to build an object file
+xv6_files/init.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.o
+.PHONY : xv6_files/init.c.o
+
+xv6_files/init.i: xv6_files/init.c.i
+
+.PHONY : xv6_files/init.i
+
+# target to preprocess a source file
+xv6_files/init.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.i
+.PHONY : xv6_files/init.c.i
+
+xv6_files/init.s: xv6_files/init.c.s
+
+.PHONY : xv6_files/init.s
+
+# target to generate assembly for a file
+xv6_files/init.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/init.c.s
+.PHONY : xv6_files/init.c.s
+
+xv6_files/ioapic.o: xv6_files/ioapic.c.o
+
+.PHONY : xv6_files/ioapic.o
+
+# target to build an object file
+xv6_files/ioapic.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.o
+.PHONY : xv6_files/ioapic.c.o
+
+xv6_files/ioapic.i: xv6_files/ioapic.c.i
+
+.PHONY : xv6_files/ioapic.i
+
+# target to preprocess a source file
+xv6_files/ioapic.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.i
+.PHONY : xv6_files/ioapic.c.i
+
+xv6_files/ioapic.s: xv6_files/ioapic.c.s
+
+.PHONY : xv6_files/ioapic.s
+
+# target to generate assembly for a file
+xv6_files/ioapic.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ioapic.c.s
+.PHONY : xv6_files/ioapic.c.s
+
+xv6_files/kalloc.o: xv6_files/kalloc.c.o
+
+.PHONY : xv6_files/kalloc.o
+
+# target to build an object file
+xv6_files/kalloc.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.o
+.PHONY : xv6_files/kalloc.c.o
+
+xv6_files/kalloc.i: xv6_files/kalloc.c.i
+
+.PHONY : xv6_files/kalloc.i
+
+# target to preprocess a source file
+xv6_files/kalloc.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.i
+.PHONY : xv6_files/kalloc.c.i
+
+xv6_files/kalloc.s: xv6_files/kalloc.c.s
+
+.PHONY : xv6_files/kalloc.s
+
+# target to generate assembly for a file
+xv6_files/kalloc.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/kalloc.c.s
+.PHONY : xv6_files/kalloc.c.s
+
+xv6_files/kbd.o: xv6_files/kbd.c.o
+
+.PHONY : xv6_files/kbd.o
+
+# target to build an object file
+xv6_files/kbd.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.o
+.PHONY : xv6_files/kbd.c.o
+
+xv6_files/kbd.i: xv6_files/kbd.c.i
+
+.PHONY : xv6_files/kbd.i
+
+# target to preprocess a source file
+xv6_files/kbd.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.i
+.PHONY : xv6_files/kbd.c.i
+
+xv6_files/kbd.s: xv6_files/kbd.c.s
+
+.PHONY : xv6_files/kbd.s
+
+# target to generate assembly for a file
+xv6_files/kbd.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/kbd.c.s
+.PHONY : xv6_files/kbd.c.s
+
+xv6_files/kill.o: xv6_files/kill.c.o
+
+.PHONY : xv6_files/kill.o
+
+# target to build an object file
+xv6_files/kill.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.o
+.PHONY : xv6_files/kill.c.o
+
+xv6_files/kill.i: xv6_files/kill.c.i
+
+.PHONY : xv6_files/kill.i
+
+# target to preprocess a source file
+xv6_files/kill.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.i
+.PHONY : xv6_files/kill.c.i
+
+xv6_files/kill.s: xv6_files/kill.c.s
+
+.PHONY : xv6_files/kill.s
+
+# target to generate assembly for a file
+xv6_files/kill.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/kill.c.s
+.PHONY : xv6_files/kill.c.s
+
+xv6_files/lapic.o: xv6_files/lapic.c.o
+
+.PHONY : xv6_files/lapic.o
+
+# target to build an object file
+xv6_files/lapic.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.o
+.PHONY : xv6_files/lapic.c.o
+
+xv6_files/lapic.i: xv6_files/lapic.c.i
+
+.PHONY : xv6_files/lapic.i
+
+# target to preprocess a source file
+xv6_files/lapic.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.i
+.PHONY : xv6_files/lapic.c.i
+
+xv6_files/lapic.s: xv6_files/lapic.c.s
+
+.PHONY : xv6_files/lapic.s
+
+# target to generate assembly for a file
+xv6_files/lapic.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/lapic.c.s
+.PHONY : xv6_files/lapic.c.s
+
+xv6_files/ln.o: xv6_files/ln.c.o
+
+.PHONY : xv6_files/ln.o
+
+# target to build an object file
+xv6_files/ln.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.o
+.PHONY : xv6_files/ln.c.o
+
+xv6_files/ln.i: xv6_files/ln.c.i
+
+.PHONY : xv6_files/ln.i
+
+# target to preprocess a source file
+xv6_files/ln.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.i
+.PHONY : xv6_files/ln.c.i
+
+xv6_files/ln.s: xv6_files/ln.c.s
+
+.PHONY : xv6_files/ln.s
+
+# target to generate assembly for a file
+xv6_files/ln.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ln.c.s
+.PHONY : xv6_files/ln.c.s
+
+xv6_files/log.o: xv6_files/log.c.o
+
+.PHONY : xv6_files/log.o
+
+# target to build an object file
+xv6_files/log.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.o
+.PHONY : xv6_files/log.c.o
+
+xv6_files/log.i: xv6_files/log.c.i
+
+.PHONY : xv6_files/log.i
+
+# target to preprocess a source file
+xv6_files/log.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.i
+.PHONY : xv6_files/log.c.i
+
+xv6_files/log.s: xv6_files/log.c.s
+
+.PHONY : xv6_files/log.s
+
+# target to generate assembly for a file
+xv6_files/log.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/log.c.s
+.PHONY : xv6_files/log.c.s
+
+xv6_files/ls.o: xv6_files/ls.c.o
+
+.PHONY : xv6_files/ls.o
+
+# target to build an object file
+xv6_files/ls.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.o
+.PHONY : xv6_files/ls.c.o
+
+xv6_files/ls.i: xv6_files/ls.c.i
+
+.PHONY : xv6_files/ls.i
+
+# target to preprocess a source file
+xv6_files/ls.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.i
+.PHONY : xv6_files/ls.c.i
+
+xv6_files/ls.s: xv6_files/ls.c.s
+
+.PHONY : xv6_files/ls.s
+
+# target to generate assembly for a file
+xv6_files/ls.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ls.c.s
+.PHONY : xv6_files/ls.c.s
+
+xv6_files/main.o: xv6_files/main.c.o
+
+.PHONY : xv6_files/main.o
+
+# target to build an object file
+xv6_files/main.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.o
+.PHONY : xv6_files/main.c.o
+
+xv6_files/main.i: xv6_files/main.c.i
+
+.PHONY : xv6_files/main.i
+
+# target to preprocess a source file
+xv6_files/main.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.i
+.PHONY : xv6_files/main.c.i
+
+xv6_files/main.s: xv6_files/main.c.s
+
+.PHONY : xv6_files/main.s
+
+# target to generate assembly for a file
+xv6_files/main.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/main.c.s
+.PHONY : xv6_files/main.c.s
+
+xv6_files/memide.o: xv6_files/memide.c.o
+
+.PHONY : xv6_files/memide.o
+
+# target to build an object file
+xv6_files/memide.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.o
+.PHONY : xv6_files/memide.c.o
+
+xv6_files/memide.i: xv6_files/memide.c.i
+
+.PHONY : xv6_files/memide.i
+
+# target to preprocess a source file
+xv6_files/memide.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.i
+.PHONY : xv6_files/memide.c.i
+
+xv6_files/memide.s: xv6_files/memide.c.s
+
+.PHONY : xv6_files/memide.s
+
+# target to generate assembly for a file
+xv6_files/memide.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/memide.c.s
+.PHONY : xv6_files/memide.c.s
+
+xv6_files/mkdir.o: xv6_files/mkdir.c.o
+
+.PHONY : xv6_files/mkdir.o
+
+# target to build an object file
+xv6_files/mkdir.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.o
+.PHONY : xv6_files/mkdir.c.o
+
+xv6_files/mkdir.i: xv6_files/mkdir.c.i
+
+.PHONY : xv6_files/mkdir.i
+
+# target to preprocess a source file
+xv6_files/mkdir.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.i
+.PHONY : xv6_files/mkdir.c.i
+
+xv6_files/mkdir.s: xv6_files/mkdir.c.s
+
+.PHONY : xv6_files/mkdir.s
+
+# target to generate assembly for a file
+xv6_files/mkdir.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkdir.c.s
+.PHONY : xv6_files/mkdir.c.s
+
+xv6_files/mkfs.o: xv6_files/mkfs.c.o
+
+.PHONY : xv6_files/mkfs.o
+
+# target to build an object file
+xv6_files/mkfs.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.o
+.PHONY : xv6_files/mkfs.c.o
+
+xv6_files/mkfs.i: xv6_files/mkfs.c.i
+
+.PHONY : xv6_files/mkfs.i
+
+# target to preprocess a source file
+xv6_files/mkfs.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.i
+.PHONY : xv6_files/mkfs.c.i
+
+xv6_files/mkfs.s: xv6_files/mkfs.c.s
+
+.PHONY : xv6_files/mkfs.s
+
+# target to generate assembly for a file
+xv6_files/mkfs.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/mkfs.c.s
+.PHONY : xv6_files/mkfs.c.s
+
+xv6_files/mp.o: xv6_files/mp.c.o
+
+.PHONY : xv6_files/mp.o
+
+# target to build an object file
+xv6_files/mp.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.o
+.PHONY : xv6_files/mp.c.o
+
+xv6_files/mp.i: xv6_files/mp.c.i
+
+.PHONY : xv6_files/mp.i
+
+# target to preprocess a source file
+xv6_files/mp.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.i
+.PHONY : xv6_files/mp.c.i
+
+xv6_files/mp.s: xv6_files/mp.c.s
+
+.PHONY : xv6_files/mp.s
+
+# target to generate assembly for a file
+xv6_files/mp.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/mp.c.s
+.PHONY : xv6_files/mp.c.s
+
+xv6_files/picirq.o: xv6_files/picirq.c.o
+
+.PHONY : xv6_files/picirq.o
+
+# target to build an object file
+xv6_files/picirq.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.o
+.PHONY : xv6_files/picirq.c.o
+
+xv6_files/picirq.i: xv6_files/picirq.c.i
+
+.PHONY : xv6_files/picirq.i
+
+# target to preprocess a source file
+xv6_files/picirq.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.i
+.PHONY : xv6_files/picirq.c.i
+
+xv6_files/picirq.s: xv6_files/picirq.c.s
+
+.PHONY : xv6_files/picirq.s
+
+# target to generate assembly for a file
+xv6_files/picirq.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/picirq.c.s
+.PHONY : xv6_files/picirq.c.s
+
+xv6_files/pipe.o: xv6_files/pipe.c.o
+
+.PHONY : xv6_files/pipe.o
+
+# target to build an object file
+xv6_files/pipe.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.o
+.PHONY : xv6_files/pipe.c.o
+
+xv6_files/pipe.i: xv6_files/pipe.c.i
+
+.PHONY : xv6_files/pipe.i
+
+# target to preprocess a source file
+xv6_files/pipe.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.i
+.PHONY : xv6_files/pipe.c.i
+
+xv6_files/pipe.s: xv6_files/pipe.c.s
+
+.PHONY : xv6_files/pipe.s
+
+# target to generate assembly for a file
+xv6_files/pipe.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/pipe.c.s
+.PHONY : xv6_files/pipe.c.s
+
+xv6_files/printf.o: xv6_files/printf.c.o
+
+.PHONY : xv6_files/printf.o
+
+# target to build an object file
+xv6_files/printf.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.o
+.PHONY : xv6_files/printf.c.o
+
+xv6_files/printf.i: xv6_files/printf.c.i
+
+.PHONY : xv6_files/printf.i
+
+# target to preprocess a source file
+xv6_files/printf.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.i
+.PHONY : xv6_files/printf.c.i
+
+xv6_files/printf.s: xv6_files/printf.c.s
+
+.PHONY : xv6_files/printf.s
+
+# target to generate assembly for a file
+xv6_files/printf.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.s
+.PHONY : xv6_files/printf.c.s
+
+xv6_files/proc.o: xv6_files/proc.c.o
+
+.PHONY : xv6_files/proc.o
+
+# target to build an object file
+xv6_files/proc.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.o
+.PHONY : xv6_files/proc.c.o
+
+xv6_files/proc.i: xv6_files/proc.c.i
+
+.PHONY : xv6_files/proc.i
+
+# target to preprocess a source file
+xv6_files/proc.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.i
+.PHONY : xv6_files/proc.c.i
+
+xv6_files/proc.s: xv6_files/proc.c.s
+
+.PHONY : xv6_files/proc.s
+
+# target to generate assembly for a file
+xv6_files/proc.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.s
+.PHONY : xv6_files/proc.c.s
+
+xv6_files/rm.o: xv6_files/rm.c.o
+
+.PHONY : xv6_files/rm.o
+
+# target to build an object file
+xv6_files/rm.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.o
+.PHONY : xv6_files/rm.c.o
+
+xv6_files/rm.i: xv6_files/rm.c.i
+
+.PHONY : xv6_files/rm.i
+
+# target to preprocess a source file
+xv6_files/rm.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.i
+.PHONY : xv6_files/rm.c.i
+
+xv6_files/rm.s: xv6_files/rm.c.s
+
+.PHONY : xv6_files/rm.s
+
+# target to generate assembly for a file
+xv6_files/rm.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.s
+.PHONY : xv6_files/rm.c.s
+
+xv6_files/sh.o: xv6_files/sh.c.o
+
+.PHONY : xv6_files/sh.o
+
+# target to build an object file
+xv6_files/sh.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.o
+.PHONY : xv6_files/sh.c.o
+
+xv6_files/sh.i: xv6_files/sh.c.i
+
+.PHONY : xv6_files/sh.i
+
+# target to preprocess a source file
+xv6_files/sh.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.i
+.PHONY : xv6_files/sh.c.i
+
+xv6_files/sh.s: xv6_files/sh.c.s
+
+.PHONY : xv6_files/sh.s
+
+# target to generate assembly for a file
+xv6_files/sh.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.s
+.PHONY : xv6_files/sh.c.s
+
+xv6_files/sleeplock.o: xv6_files/sleeplock.c.o
+
+.PHONY : xv6_files/sleeplock.o
+
+# target to build an object file
+xv6_files/sleeplock.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.o
+.PHONY : xv6_files/sleeplock.c.o
+
+xv6_files/sleeplock.i: xv6_files/sleeplock.c.i
+
+.PHONY : xv6_files/sleeplock.i
+
+# target to preprocess a source file
+xv6_files/sleeplock.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.i
+.PHONY : xv6_files/sleeplock.c.i
+
+xv6_files/sleeplock.s: xv6_files/sleeplock.c.s
+
+.PHONY : xv6_files/sleeplock.s
+
+# target to generate assembly for a file
+xv6_files/sleeplock.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.s
+.PHONY : xv6_files/sleeplock.c.s
+
+xv6_files/spinlock.o: xv6_files/spinlock.c.o
+
+.PHONY : xv6_files/spinlock.o
+
+# target to build an object file
+xv6_files/spinlock.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.o
+.PHONY : xv6_files/spinlock.c.o
+
+xv6_files/spinlock.i: xv6_files/spinlock.c.i
+
+.PHONY : xv6_files/spinlock.i
+
+# target to preprocess a source file
+xv6_files/spinlock.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.i
+.PHONY : xv6_files/spinlock.c.i
+
+xv6_files/spinlock.s: xv6_files/spinlock.c.s
+
+.PHONY : xv6_files/spinlock.s
+
+# target to generate assembly for a file
+xv6_files/spinlock.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.s
+.PHONY : xv6_files/spinlock.c.s
+
+xv6_files/stressfs.o: xv6_files/stressfs.c.o
+
+.PHONY : xv6_files/stressfs.o
+
+# target to build an object file
+xv6_files/stressfs.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.o
+.PHONY : xv6_files/stressfs.c.o
+
+xv6_files/stressfs.i: xv6_files/stressfs.c.i
+
+.PHONY : xv6_files/stressfs.i
+
+# target to preprocess a source file
+xv6_files/stressfs.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.i
+.PHONY : xv6_files/stressfs.c.i
+
+xv6_files/stressfs.s: xv6_files/stressfs.c.s
+
+.PHONY : xv6_files/stressfs.s
+
+# target to generate assembly for a file
+xv6_files/stressfs.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/stressfs.c.s
+.PHONY : xv6_files/stressfs.c.s
+
+xv6_files/string.o: xv6_files/string.c.o
+
+.PHONY : xv6_files/string.o
+
+# target to build an object file
+xv6_files/string.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.o
+.PHONY : xv6_files/string.c.o
+
+xv6_files/string.i: xv6_files/string.c.i
+
+.PHONY : xv6_files/string.i
+
+# target to preprocess a source file
+xv6_files/string.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.i
+.PHONY : xv6_files/string.c.i
+
+xv6_files/string.s: xv6_files/string.c.s
+
+.PHONY : xv6_files/string.s
+
+# target to generate assembly for a file
+xv6_files/string.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/string.c.s
+.PHONY : xv6_files/string.c.s
+
+xv6_files/syscall.o: xv6_files/syscall.c.o
+
+.PHONY : xv6_files/syscall.o
+
+# target to build an object file
+xv6_files/syscall.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.o
+.PHONY : xv6_files/syscall.c.o
+
+xv6_files/syscall.i: xv6_files/syscall.c.i
+
+.PHONY : xv6_files/syscall.i
+
+# target to preprocess a source file
+xv6_files/syscall.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.i
+.PHONY : xv6_files/syscall.c.i
+
+xv6_files/syscall.s: xv6_files/syscall.c.s
+
+.PHONY : xv6_files/syscall.s
+
+# target to generate assembly for a file
+xv6_files/syscall.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/syscall.c.s
+.PHONY : xv6_files/syscall.c.s
+
+xv6_files/sysfile.o: xv6_files/sysfile.c.o
+
+.PHONY : xv6_files/sysfile.o
+
+# target to build an object file
+xv6_files/sysfile.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.o
+.PHONY : xv6_files/sysfile.c.o
+
+xv6_files/sysfile.i: xv6_files/sysfile.c.i
+
+.PHONY : xv6_files/sysfile.i
+
+# target to preprocess a source file
+xv6_files/sysfile.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.i
+.PHONY : xv6_files/sysfile.c.i
+
+xv6_files/sysfile.s: xv6_files/sysfile.c.s
+
+.PHONY : xv6_files/sysfile.s
+
+# target to generate assembly for a file
+xv6_files/sysfile.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysfile.c.s
+.PHONY : xv6_files/sysfile.c.s
+
+xv6_files/sysproc.o: xv6_files/sysproc.c.o
+
+.PHONY : xv6_files/sysproc.o
+
+# target to build an object file
+xv6_files/sysproc.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.o
+.PHONY : xv6_files/sysproc.c.o
+
+xv6_files/sysproc.i: xv6_files/sysproc.c.i
+
+.PHONY : xv6_files/sysproc.i
+
+# target to preprocess a source file
+xv6_files/sysproc.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.i
+.PHONY : xv6_files/sysproc.c.i
+
+xv6_files/sysproc.s: xv6_files/sysproc.c.s
+
+.PHONY : xv6_files/sysproc.s
+
+# target to generate assembly for a file
+xv6_files/sysproc.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sysproc.c.s
+.PHONY : xv6_files/sysproc.c.s
+
+xv6_files/timer.o: xv6_files/timer.c.o
+
+.PHONY : xv6_files/timer.o
+
+# target to build an object file
+xv6_files/timer.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.o
+.PHONY : xv6_files/timer.c.o
+
+xv6_files/timer.i: xv6_files/timer.c.i
+
+.PHONY : xv6_files/timer.i
+
+# target to preprocess a source file
+xv6_files/timer.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.i
+.PHONY : xv6_files/timer.c.i
+
+xv6_files/timer.s: xv6_files/timer.c.s
+
+.PHONY : xv6_files/timer.s
+
+# target to generate assembly for a file
+xv6_files/timer.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/timer.c.s
+.PHONY : xv6_files/timer.c.s
+
+xv6_files/trap.o: xv6_files/trap.c.o
+
+.PHONY : xv6_files/trap.o
+
+# target to build an object file
+xv6_files/trap.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.o
+.PHONY : xv6_files/trap.c.o
+
+xv6_files/trap.i: xv6_files/trap.c.i
+
+.PHONY : xv6_files/trap.i
+
+# target to preprocess a source file
+xv6_files/trap.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.i
+.PHONY : xv6_files/trap.c.i
+
+xv6_files/trap.s: xv6_files/trap.c.s
+
+.PHONY : xv6_files/trap.s
+
+# target to generate assembly for a file
+xv6_files/trap.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/trap.c.s
+.PHONY : xv6_files/trap.c.s
+
+xv6_files/uart.o: xv6_files/uart.c.o
+
+.PHONY : xv6_files/uart.o
+
+# target to build an object file
+xv6_files/uart.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.o
+.PHONY : xv6_files/uart.c.o
+
+xv6_files/uart.i: xv6_files/uart.c.i
+
+.PHONY : xv6_files/uart.i
+
+# target to preprocess a source file
+xv6_files/uart.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.i
+.PHONY : xv6_files/uart.c.i
+
+xv6_files/uart.s: xv6_files/uart.c.s
+
+.PHONY : xv6_files/uart.s
+
+# target to generate assembly for a file
+xv6_files/uart.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/uart.c.s
+.PHONY : xv6_files/uart.c.s
+
+xv6_files/ulib.o: xv6_files/ulib.c.o
+
+.PHONY : xv6_files/ulib.o
+
+# target to build an object file
+xv6_files/ulib.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.o
+.PHONY : xv6_files/ulib.c.o
+
+xv6_files/ulib.i: xv6_files/ulib.c.i
+
+.PHONY : xv6_files/ulib.i
+
+# target to preprocess a source file
+xv6_files/ulib.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.i
+.PHONY : xv6_files/ulib.c.i
+
+xv6_files/ulib.s: xv6_files/ulib.c.s
+
+.PHONY : xv6_files/ulib.s
+
+# target to generate assembly for a file
+xv6_files/ulib.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/ulib.c.s
+.PHONY : xv6_files/ulib.c.s
+
+xv6_files/umalloc.o: xv6_files/umalloc.c.o
+
+.PHONY : xv6_files/umalloc.o
+
+# target to build an object file
+xv6_files/umalloc.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.o
+.PHONY : xv6_files/umalloc.c.o
+
+xv6_files/umalloc.i: xv6_files/umalloc.c.i
+
+.PHONY : xv6_files/umalloc.i
+
+# target to preprocess a source file
+xv6_files/umalloc.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.i
+.PHONY : xv6_files/umalloc.c.i
+
+xv6_files/umalloc.s: xv6_files/umalloc.c.s
+
+.PHONY : xv6_files/umalloc.s
+
+# target to generate assembly for a file
+xv6_files/umalloc.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/umalloc.c.s
+.PHONY : xv6_files/umalloc.c.s
+
+xv6_files/usertests.o: xv6_files/usertests.c.o
+
+.PHONY : xv6_files/usertests.o
+
+# target to build an object file
+xv6_files/usertests.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.o
+.PHONY : xv6_files/usertests.c.o
+
+xv6_files/usertests.i: xv6_files/usertests.c.i
+
+.PHONY : xv6_files/usertests.i
+
+# target to preprocess a source file
+xv6_files/usertests.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.i
+.PHONY : xv6_files/usertests.c.i
+
+xv6_files/usertests.s: xv6_files/usertests.c.s
+
+.PHONY : xv6_files/usertests.s
+
+# target to generate assembly for a file
+xv6_files/usertests.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/usertests.c.s
+.PHONY : xv6_files/usertests.c.s
+
+xv6_files/vm.o: xv6_files/vm.c.o
+
+.PHONY : xv6_files/vm.o
+
+# target to build an object file
+xv6_files/vm.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.o
+.PHONY : xv6_files/vm.c.o
+
+xv6_files/vm.i: xv6_files/vm.c.i
+
+.PHONY : xv6_files/vm.i
+
+# target to preprocess a source file
+xv6_files/vm.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.i
+.PHONY : xv6_files/vm.c.i
+
+xv6_files/vm.s: xv6_files/vm.c.s
+
+.PHONY : xv6_files/vm.s
+
+# target to generate assembly for a file
+xv6_files/vm.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/vm.c.s
+.PHONY : xv6_files/vm.c.s
+
+xv6_files/wc.o: xv6_files/wc.c.o
+
+.PHONY : xv6_files/wc.o
+
+# target to build an object file
+xv6_files/wc.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.o
+.PHONY : xv6_files/wc.c.o
+
+xv6_files/wc.i: xv6_files/wc.c.i
+
+.PHONY : xv6_files/wc.i
+
+# target to preprocess a source file
+xv6_files/wc.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.i
+.PHONY : xv6_files/wc.c.i
+
+xv6_files/wc.s: xv6_files/wc.c.s
+
+.PHONY : xv6_files/wc.s
+
+# target to generate assembly for a file
+xv6_files/wc.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/wc.c.s
+.PHONY : xv6_files/wc.c.s
+
+xv6_files/zombie.o: xv6_files/zombie.c.o
+
+.PHONY : xv6_files/zombie.o
+
+# target to build an object file
+xv6_files/zombie.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.o
+.PHONY : xv6_files/zombie.c.o
+
+xv6_files/zombie.i: xv6_files/zombie.c.i
+
+.PHONY : xv6_files/zombie.i
+
+# target to preprocess a source file
+xv6_files/zombie.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.i
+.PHONY : xv6_files/zombie.c.i
+
+xv6_files/zombie.s: xv6_files/zombie.c.s
+
+.PHONY : xv6_files/zombie.s
+
+# target to generate assembly for a file
+xv6_files/zombie.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/zombie.c.s
+.PHONY : xv6_files/zombie.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +1509,159 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... OS_Project_xv6_"
+	@echo "... xv6_files/Gsanity.o"
+	@echo "... xv6_files/Gsanity.i"
+	@echo "... xv6_files/Gsanity.s"
+	@echo "... xv6_files/RRsanity.o"
+	@echo "... xv6_files/RRsanity.i"
+	@echo "... xv6_files/RRsanity.s"
+	@echo "... xv6_files/bio.o"
+	@echo "... xv6_files/bio.i"
+	@echo "... xv6_files/bio.s"
+	@echo "... xv6_files/bootmain.o"
+	@echo "... xv6_files/bootmain.i"
+	@echo "... xv6_files/bootmain.s"
+	@echo "... xv6_files/cat.o"
+	@echo "... xv6_files/cat.i"
+	@echo "... xv6_files/cat.s"
+	@echo "... xv6_files/console.o"
+	@echo "... xv6_files/console.i"
+	@echo "... xv6_files/console.s"
+	@echo "... xv6_files/echo.o"
+	@echo "... xv6_files/echo.i"
+	@echo "... xv6_files/echo.s"
+	@echo "... xv6_files/exec.o"
+	@echo "... xv6_files/exec.i"
+	@echo "... xv6_files/exec.s"
+	@echo "... xv6_files/file.o"
+	@echo "... xv6_files/file.i"
+	@echo "... xv6_files/file.s"
+	@echo "... xv6_files/forktest.o"
+	@echo "... xv6_files/forktest.i"
+	@echo "... xv6_files/forktest.s"
+	@echo "... xv6_files/frrTest.o"
+	@echo "... xv6_files/frrTest.i"
+	@echo "... xv6_files/frrTest.s"
+	@echo "... xv6_files/fs.o"
+	@echo "... xv6_files/fs.i"
+	@echo "... xv6_files/fs.s"
+	@echo "... xv6_files/getppid.o"
+	@echo "... xv6_files/getppid.i"
+	@echo "... xv6_files/getppid.s"
+	@echo "... xv6_files/grep.o"
+	@echo "... xv6_files/grep.i"
+	@echo "... xv6_files/grep.s"
+	@echo "... xv6_files/ide.o"
+	@echo "... xv6_files/ide.i"
+	@echo "... xv6_files/ide.s"
+	@echo "... xv6_files/init.o"
+	@echo "... xv6_files/init.i"
+	@echo "... xv6_files/init.s"
+	@echo "... xv6_files/ioapic.o"
+	@echo "... xv6_files/ioapic.i"
+	@echo "... xv6_files/ioapic.s"
+	@echo "... xv6_files/kalloc.o"
+	@echo "... xv6_files/kalloc.i"
+	@echo "... xv6_files/kalloc.s"
+	@echo "... xv6_files/kbd.o"
+	@echo "... xv6_files/kbd.i"
+	@echo "... xv6_files/kbd.s"
+	@echo "... xv6_files/kill.o"
+	@echo "... xv6_files/kill.i"
+	@echo "... xv6_files/kill.s"
+	@echo "... xv6_files/lapic.o"
+	@echo "... xv6_files/lapic.i"
+	@echo "... xv6_files/lapic.s"
+	@echo "... xv6_files/ln.o"
+	@echo "... xv6_files/ln.i"
+	@echo "... xv6_files/ln.s"
+	@echo "... xv6_files/log.o"
+	@echo "... xv6_files/log.i"
+	@echo "... xv6_files/log.s"
+	@echo "... xv6_files/ls.o"
+	@echo "... xv6_files/ls.i"
+	@echo "... xv6_files/ls.s"
+	@echo "... xv6_files/main.o"
+	@echo "... xv6_files/main.i"
+	@echo "... xv6_files/main.s"
+	@echo "... xv6_files/memide.o"
+	@echo "... xv6_files/memide.i"
+	@echo "... xv6_files/memide.s"
+	@echo "... xv6_files/mkdir.o"
+	@echo "... xv6_files/mkdir.i"
+	@echo "... xv6_files/mkdir.s"
+	@echo "... xv6_files/mkfs.o"
+	@echo "... xv6_files/mkfs.i"
+	@echo "... xv6_files/mkfs.s"
+	@echo "... xv6_files/mp.o"
+	@echo "... xv6_files/mp.i"
+	@echo "... xv6_files/mp.s"
+	@echo "... xv6_files/picirq.o"
+	@echo "... xv6_files/picirq.i"
+	@echo "... xv6_files/picirq.s"
+	@echo "... xv6_files/pipe.o"
+	@echo "... xv6_files/pipe.i"
+	@echo "... xv6_files/pipe.s"
+	@echo "... xv6_files/printf.o"
+	@echo "... xv6_files/printf.i"
+	@echo "... xv6_files/printf.s"
+	@echo "... xv6_files/proc.o"
+	@echo "... xv6_files/proc.i"
+	@echo "... xv6_files/proc.s"
+	@echo "... xv6_files/rm.o"
+	@echo "... xv6_files/rm.i"
+	@echo "... xv6_files/rm.s"
+	@echo "... xv6_files/sh.o"
+	@echo "... xv6_files/sh.i"
+	@echo "... xv6_files/sh.s"
+	@echo "... xv6_files/sleeplock.o"
+	@echo "... xv6_files/sleeplock.i"
+	@echo "... xv6_files/sleeplock.s"
+	@echo "... xv6_files/spinlock.o"
+	@echo "... xv6_files/spinlock.i"
+	@echo "... xv6_files/spinlock.s"
+	@echo "... xv6_files/stressfs.o"
+	@echo "... xv6_files/stressfs.i"
+	@echo "... xv6_files/stressfs.s"
+	@echo "... xv6_files/string.o"
+	@echo "... xv6_files/string.i"
+	@echo "... xv6_files/string.s"
+	@echo "... xv6_files/syscall.o"
+	@echo "... xv6_files/syscall.i"
+	@echo "... xv6_files/syscall.s"
+	@echo "... xv6_files/sysfile.o"
+	@echo "... xv6_files/sysfile.i"
+	@echo "... xv6_files/sysfile.s"
+	@echo "... xv6_files/sysproc.o"
+	@echo "... xv6_files/sysproc.i"
+	@echo "... xv6_files/sysproc.s"
+	@echo "... xv6_files/timer.o"
+	@echo "... xv6_files/timer.i"
+	@echo "... xv6_files/timer.s"
+	@echo "... xv6_files/trap.o"
+	@echo "... xv6_files/trap.i"
+	@echo "... xv6_files/trap.s"
+	@echo "... xv6_files/uart.o"
+	@echo "... xv6_files/uart.i"
+	@echo "... xv6_files/uart.s"
+	@echo "... xv6_files/ulib.o"
+	@echo "... xv6_files/ulib.i"
+	@echo "... xv6_files/ulib.s"
+	@echo "... xv6_files/umalloc.o"
+	@echo "... xv6_files/umalloc.i"
+	@echo "... xv6_files/umalloc.s"
+	@echo "... xv6_files/usertests.o"
+	@echo "... xv6_files/usertests.i"
+	@echo "... xv6_files/usertests.s"
+	@echo "... xv6_files/vm.o"
+	@echo "... xv6_files/vm.i"
+	@echo "... xv6_files/vm.s"
+	@echo "... xv6_files/wc.o"
+	@echo "... xv6_files/wc.i"
+	@echo "... xv6_files/wc.s"
+	@echo "... xv6_files/zombie.o"
+	@echo "... xv6_files/zombie.i"
+	@echo "... xv6_files/zombie.s"
 .PHONY : help
 
 
