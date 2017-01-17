@@ -47,16 +47,16 @@ sanity(void)
     }
 
     int i;
-    int avg_runtime;
+    int avg_turnaround_time;
     int avg_wtime;
     int w_temp = 0, r_temp = 0;
     for (i = 0; i < CHILD_NUMBER; ++i) {
         w_temp += wTime[i];
         r_temp += rTime[i];
     }
-    avg_runtime = r_temp/CHILD_NUMBER;
+    avg_turnaround_time = ((w_temp + r_temp)/CHILD_NUMBER);
     avg_wtime = w_temp/CHILD_NUMBER;
-    printf(1, "the total average run time is: %d\n", avg_runtime);
+    printf(1, "the total average turn around time time is: %d\n", avg_turnaround_time);
     printf(1, "the total average wait time is: %d\n", avg_wtime);
 
 
@@ -79,11 +79,11 @@ sanity(void)
     }
 
     int avgq_wtime[3];
-    int avgq_rtime[3];
+    int avgq_turnaround_time[3];
 
-    avgq_rtime[0] = r_temp0/CHILD_NUMBER;
-    avgq_rtime[1] = r_temp1/CHILD_NUMBER;
-    avgq_rtime[2] = r_temp2/CHILD_NUMBER;
+    avgq_turnaround_time[0] = ((w_temp0 + r_temp0)/CHILD_NUMBER);
+    avgq_turnaround_time[1] = ((w_temp1 + r_temp1)/CHILD_NUMBER);
+    avgq_turnaround_time[2] = ((w_temp2 + r_temp2)/CHILD_NUMBER);
 
     avgq_wtime[0] = w_temp0/CHILD_NUMBER;
     avgq_wtime[1] = w_temp1/CHILD_NUMBER;
@@ -91,14 +91,14 @@ sanity(void)
 
     int m;
     for (m = 0; m < 3; ++m) {
-        printf(1, "The average run time of queue #%d is: %d\n", m, avgq_rtime[m]);
+        printf(1, "The average turn around time of queue #%d is: %d\n", m, avgq_turnaround_time[m]);
         printf(1, "The average wait time of queue #%d is: %d\n", m, avgq_wtime[m]);
     }
 
     int k;
     for (k = 0; k < CHILD_NUMBER; ++k) {
         printf(1, "The waittime of %d child is %d\n", k, wTime[k]);
-        printf(1, "The runtime of %d child is %d\n", k, rTime[k]);
+        printf(1, "The turn around time of %d child is %d\n", k, (wTime[k] + rTime[k]));
     }
 }
 int

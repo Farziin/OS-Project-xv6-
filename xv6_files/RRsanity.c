@@ -44,6 +44,7 @@ RRsanity(void)
     for (k = 0; k < CHILD_NUMBER; ++k) {
         printf(1, "The waittime of %d child is %d\n", k, wTime[k]);
         printf(1, "The runtime of %d child is %d\n", k, rTime[k]);
+        printf(1, "The turn around time of %d child is %d\n", k, (wTime[k] + rTime[k]));
     }
 
 }

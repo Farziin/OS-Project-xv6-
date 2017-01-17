@@ -450,6 +450,7 @@ find_GRT(void){
 
 int
 find_MLQ(void){
+
     struct proc *nnp;
     int to_exec = -1;
     int minref = ticks;
