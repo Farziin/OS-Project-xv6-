@@ -340,6 +340,22 @@ wait(void)
     }
 }
 
+int
+nice(){
+    if (proc){
+        if (proc->priority == PRIORITY_G){
+            proc->priority = PRIORITY_FRR;
+            return 0;
+        } else if (proc->priority == PRIORITY_FRR) {
+            proc->priority = PRIORITY_RR;
+            return 0;
+        } else if (proc->priority == PRIORITY_RR){
+            return -1;
+        }
+    }
+    return -1;
+}
+
 
 int
 wait2(int *wtime, int *rtime){
@@ -437,8 +453,11 @@ find_MLQ(void){
     struct proc *nnp;
     int to_exec = -1;
     int minref = ticks;
+    double mingrt = 0;
     for(nnp = ptable.proc; nnp < &ptable.proc[NPROC]; nnp++) {
-        if (nnp->state == RUNNABLE && nnp->priority == PRIORITY_G){
+        double grt = (double) (nnp->rtime / (ticks - nnp->ctime + 1));
+        if (nnp->state == RUNNABLE && grt <= mingrt){
+            mingrt = grt;
             to_exec = nnp->pid;
         }
     }
