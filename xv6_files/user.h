@@ -26,6 +26,7 @@ int sleep(int);
 int uptime(void);
 int getppid(void);
 int wait2(int *, int*);
+int nice(void);
 
 // ulib.c
 int stat(char*, struct stat*);

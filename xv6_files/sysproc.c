@@ -107,3 +107,9 @@ sys_wait2(void){
     int pid = wait2(wtime, rtime);
     return pid;
 }
+
+int
+sys_nice(void){
+    int res = nice();
+    return res;
+}
