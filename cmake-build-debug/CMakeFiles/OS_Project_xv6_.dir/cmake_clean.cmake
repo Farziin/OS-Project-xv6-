@@ -50,6 +50,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/OS_Project_xv6_.dir/xv6_files/RRsanity.c.o"
   "CMakeFiles/OS_Project_xv6_.dir/xv6_files/frrTest.c.o"
   "CMakeFiles/OS_Project_xv6_.dir/xv6_files/Gsanity.c.o"
+  "CMakeFiles/OS_Project_xv6_.dir/xv6_files/sanity.c.o"
   "OS_Project_xv6_.pdb"
   "OS_Project_xv6_"
 )

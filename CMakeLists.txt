@@ -266,6 +266,6 @@ set(SOURCE_FILES
         xv6_files/zombie.o
         xv6_files/zombie.sym
         xv6_files/getppid.c
-        xv6_files/RRsanity.c xv6_files/frrTest.c xv6_files/Gsanity.c)
+        xv6_files/RRsanity.c xv6_files/frrTest.c xv6_files/Gsanity.c xv6_files/sanity.c)
 
 add_executable(OS_Project_xv6_ ${SOURCE_FILES})

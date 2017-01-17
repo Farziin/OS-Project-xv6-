@@ -621,6 +621,9 @@
 		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/runoff1">
 			<Option target="OS_Project_xv6_"/>
 		</Unit>
+		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sanity.c">
+			<Option target="OS_Project_xv6_"/>
+		</Unit>
 		<Unit filename="/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sh.asm">
 			<Option target="OS_Project_xv6_"/>
 		</Unit>

@@ -38,6 +38,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/printf.c" "/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles/OS_Project_xv6_.dir/xv6_files/printf.c.o"
   "/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/proc.c" "/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles/OS_Project_xv6_.dir/xv6_files/proc.c.o"
   "/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/rm.c" "/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.o"
+  "/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sanity.c" "/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles/OS_Project_xv6_.dir/xv6_files/sanity.c.o"
   "/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sh.c" "/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles/OS_Project_xv6_.dir/xv6_files/sh.c.o"
   "/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/sleeplock.c" "/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles/OS_Project_xv6_.dir/xv6_files/sleeplock.c.o"
   "/home/hossein/CLionProjects/OS-Project-xv6-/xv6_files/spinlock.c" "/home/hossein/CLionProjects/OS-Project-xv6-/cmake-build-debug/CMakeFiles/OS_Project_xv6_.dir/xv6_files/spinlock.c.o"

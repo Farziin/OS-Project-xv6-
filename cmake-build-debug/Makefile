@@ -1041,6 +1041,33 @@ xv6_files/rm.c.s:
 	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/rm.c.s
 .PHONY : xv6_files/rm.c.s
 
+xv6_files/sanity.o: xv6_files/sanity.c.o
+
+.PHONY : xv6_files/sanity.o
+
+# target to build an object file
+xv6_files/sanity.c.o:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sanity.c.o
+.PHONY : xv6_files/sanity.c.o
+
+xv6_files/sanity.i: xv6_files/sanity.c.i
+
+.PHONY : xv6_files/sanity.i
+
+# target to preprocess a source file
+xv6_files/sanity.c.i:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sanity.c.i
+.PHONY : xv6_files/sanity.c.i
+
+xv6_files/sanity.s: xv6_files/sanity.c.s
+
+.PHONY : xv6_files/sanity.s
+
+# target to generate assembly for a file
+xv6_files/sanity.c.s:
+	$(MAKE) -f CMakeFiles/OS_Project_xv6_.dir/build.make CMakeFiles/OS_Project_xv6_.dir/xv6_files/sanity.c.s
+.PHONY : xv6_files/sanity.c.s
+
 xv6_files/sh.o: xv6_files/sh.c.o
 
 .PHONY : xv6_files/sh.o
@@ -1611,6 +1638,9 @@ help:
 	@echo "... xv6_files/rm.o"
 	@echo "... xv6_files/rm.i"
 	@echo "... xv6_files/rm.s"
+	@echo "... xv6_files/sanity.o"
+	@echo "... xv6_files/sanity.i"
+	@echo "... xv6_files/sanity.s"
 	@echo "... xv6_files/sh.o"
 	@echo "... xv6_files/sh.i"
 	@echo "... xv6_files/sh.s"
