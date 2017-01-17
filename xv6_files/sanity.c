@@ -27,7 +27,7 @@ sanity(void)
     int pid[CHILD_NUMBER];
 
     int cid;
-    for (cid = 0; cid < CHILD_NUMBER; i++) {
+    for (cid = 0; cid < CHILD_NUMBER; cid++) {
         pid[cid] = fork();
         if(pid[cid] == 0){
             if(cid % 3 == 0)
@@ -49,7 +49,7 @@ sanity(void)
     int i;
     int avg_runtime;
     int avg_wtime;
-    int w_temp = 0, r_temp;
+    int w_temp = 0, r_temp = 0;
     for (i = 0; i < CHILD_NUMBER; ++i) {
         w_temp += wTime[i];
         r_temp += rTime[i];
