@@ -91,8 +91,8 @@ sanity(void)
 
     int m;
     for (m = 0; m < 3; ++m) {
-        printf("The average run time of queue #%d is: %d\n", m, avgq_rtime[m]);
-        printf("The average wait time of queue #%d is: %d\n", m, avgq_wtime[m]);
+        printf(1, "The average run time of queue #%d is: %d\n", m, avgq_rtime[m]);
+        printf(1, "The average wait time of queue #%d is: %d\n", m, avgq_wtime[m]);
     }
 
     int k;
