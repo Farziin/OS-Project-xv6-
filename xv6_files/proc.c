@@ -10,7 +10,7 @@
 #define ROUND_ROBIN 1
 #define FIFO_ROUND_ROBIN 2
 #define GRT 3
-#define THREE_Q 4
+#define MLQ 4
 
 
 struct {
@@ -378,6 +378,60 @@ wait2(int *wtime, int *rtime){
     }
 }
 
+int
+find_RR(void){
+    struct proc *p;
+    for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
+        if(p->state != RUNNABLE)
+            continue;
+        return p->pid;
+    }
+    return -1;
+}
+
+int
+find_FIFORR(void){
+    int minref = ticks;
+    struct proc *p;
+    struct proc *nnp;
+    for(nnp = ptable.proc; nnp < &ptable.proc[NPROC]; nnp++) {
+        if (nnp->state == RUNNABLE && nnp->lastref <= minref)
+            minref = nnp->lastref;
+    }
+    for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
+        if(p->state != RUNNABLE || p->lastref > minref)
+            continue;
+        return p->pid;
+    }
+    return -1;
+}
+
+int
+find_GRT(void){
+    double mingrt = 0;
+    struct proc *p;
+    struct proc *nnp;
+    int to_exec = -1;
+    for(nnp = ptable.proc; nnp < &ptable.proc[NPROC]; nnp++) {
+        double grt = (double) (nnp->rtime / (ticks - nnp->ctime + 1));
+        if (nnp->state == RUNNABLE && grt <= mingrt){
+            mingrt = grt;
+            to_exec = nnp->pid;
+        }
+    }
+    for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
+        if(p->state != RUNNABLE || p->pid != to_exec)
+            continue;
+        return p->pid;
+    }
+    return -1;
+}
+
+int
+find_MLQ(void){
+    return -1;
+}
+
 //PAGEBREAK: 42
 // Per-CPU process scheduler.
 // Each CPU calls scheduler() after setting itself up.
@@ -390,118 +444,53 @@ void
 scheduler(void)
 {
     struct proc *p;
-    struct proc *nnp;
     int SCHED_TYPE = 1;
-    int to_exec = -1;
-    int minref = 0;
-    double mingrt = 0;
+    int finalized_pid = -1;
 
     for(;;){
-#ifdef SCHEDFLAG
-        SCHED_TYPE = SCHEDFLAG;
-#endif
+        #ifdef SCHEDFLAG
+                SCHED_TYPE = SCHEDFLAG;
+        #endif
+        // Enable interrupts on this processor.
+        sti();
+
+        // Loop over process table looking for process to run.
+        acquire(&ptable.lock);
         switch (SCHED_TYPE) {
-            case ROUND_ROBIN:
-                // Enable interrupts on this processor.
-                sti();
-
-                // Loop over process table looking for process to run.
-                acquire(&ptable.lock);
-                for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
-                    if(p->state != RUNNABLE)
-                        continue;
-
-                    // Switch to chosen process.  It is the process's job
-                    // to release ptable.lock and then reacquire it
-                    // before jumping back to us.
-                    proc = p;
-                    switchuvm(p);
-                    p->state = RUNNING;
-//                    cprintf("EXECUTING #%d\n", p->pid);
-                    swtch(&cpu->scheduler, p->context);
-                    switchkvm();
-
-                    p->lastref = ticks;
-
-                    // Process is done running for now.
-                    // It should have changed its p->state before coming back.
-                    proc = 0;
-                }
-                release(&ptable.lock);
-                break;
-            case FIFO_ROUND_ROBIN:
-                // Enable interrupts on this processor.
-                sti();
-                // Loop over process table looking for process to run.
-                acquire(&ptable.lock);
-                minref = ticks;
-                for(nnp = ptable.proc; nnp < &ptable.proc[NPROC]; nnp++) {
-                    if (nnp->state == RUNNABLE && nnp->lastref <= minref)
-                        minref = nnp->lastref;
-                }
-                for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
-                    if(p->state != RUNNABLE || p->lastref > minref)
-                        continue;
-//                    cprintf("EXECUTING #%d\n", p->pid);
-                    // Switch to chosen process. It is the process's job
-                    // to release ptable.lock and then reacquire it
-                    // before jumping back to us.
-                    proc = p;
-                    switchuvm(p);
-                    p->state = RUNNING;
-                    swtch(&cpu->scheduler, p->context);
-                    switchkvm();
-                    p->lastref = ticks;
-
-                    // Process is done running for now.
-                    // It should have changed its p->state before coming back.
-                    proc = 0;
-                }
-//                for(struct proc * np = ptable.proc; np < &ptable.proc[NPROC]; np++){
-//                    if(np->pid == to_execute_process || np->pid == 1 || np->pid == 2 || np->pid == 0){
-
-//                        break;
-//                    }
-//                }
-                release(&ptable.lock);
-                break;
-            case GRT:
-                // Enable interrupts on this processor.
-                sti();
-
-                // Loop over process table looking for process to run.
-                acquire(&ptable.lock);
-                for(nnp = ptable.proc; nnp < &ptable.proc[NPROC]; nnp++) {
-                    double grt = (double) (nnp->rtime / (ticks - nnp->ctime + 1));
-                    if (nnp->state == RUNNABLE && grt <= mingrt){
-                        mingrt = grt;
-                        to_exec = nnp->pid;
-                    }
-                }
-                for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
-                    if(p->state != RUNNABLE || p->pid != to_exec)
-                        continue;
-
-                    // Switch to chosen process.  It is the process's job
-                    // to release ptable.lock and then reacquire it
-                    // before jumping back to us.
-                    proc = p;
-                    switchuvm(p);
-                    p->state = RUNNING;
-//                    cprintf("EXECUTING #%d\n", p->pid);
-                    swtch(&cpu->scheduler, p->context);
-                    switchkvm();
-
-                    p->lastref = ticks;
-
-                    // Process is done running for now.
-                    // It should have changed its p->state before coming back.
-                    proc = 0;
-                }
-                release(&ptable.lock);
-                break;
+           case ROUND_ROBIN:
+               finalized_pid = find_RR();
+               break;
+           case FIFO_ROUND_ROBIN:
+               finalized_pid = find_FIFORR();
+               break;
+           case GRT:
+               finalized_pid = find_GRT();
+               break;
+           case MLQ:
+               finalized_pid = find_MLQ();
+               break;
         }
+        for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
+           if(p->pid != finalized_pid)
+               continue;
 
+           // Switch to chosen process.  It is the process's job
+           // to release ptable.lock and then reacquire it
+           // before jumping back to us.
+           proc = p;
+           switchuvm(p);
+           p->state = RUNNING;
+        //                    cprintf("EXECUTING #%d\n", p->pid);
+           swtch(&cpu->scheduler, p->context);
+           switchkvm();
+
+           p->lastref = ticks;
+
+           // Process is done running for now.
+           // It should have changed its p->state before coming back.
+           proc = 0;
+        }
+        release(&ptable.lock);
     }
 }
 
