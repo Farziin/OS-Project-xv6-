@@ -456,7 +456,7 @@ find_MLQ(void){
     double mingrt = 0;
     for(nnp = ptable.proc; nnp < &ptable.proc[NPROC]; nnp++) {
         double grt = (double) (nnp->rtime / (ticks - nnp->ctime + 1));
-        if (nnp->state == RUNNABLE && grt <= mingrt){
+        if (nnp->state == RUNNABLE && grt <= mingrt && nnp->priority == PRIORITY_G){
             mingrt = grt;
             to_exec = nnp->pid;
         }
