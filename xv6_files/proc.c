@@ -340,6 +340,21 @@ wait(void)
     }
 }
 
+int
+nice(){
+    if (proc){
+        if (proc->priority == PRIORITY_G){
+            proc->priority = PRIORITY_FRR;
+            return 0;
+        } else if (proc->priority == PRIORITY_FRR) {
+            proc->priority = PRIORITY_RR;
+            return 0;
+        } else if (proc->priority == PRIORITY_RR){
+            return -1;
+        }
+    }
+}
+
 
 int
 wait2(int *wtime, int *rtime){
