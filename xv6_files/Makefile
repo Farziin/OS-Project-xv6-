@@ -77,7 +77,7 @@ else ifeq ($(SCHEDFLAG), FRR)
     CC = $(TOOLPREFIX)gcc -DSCHEDFLAG=2
 else ifeq ($(SCHEDFLAG), GRT)
     CC = $(TOOLPREFIX)gcc -DSCHEDFLAG=3
-else ifeq ($(SCHEDFLAG), 3Q)
+else ifeq ($(SCHEDFLAG), MLQ)
     CC = $(TOOLPREFIX)gcc -DSCHEDFLAG=4
 else
     CC = $(TOOLPREFIX)gcc

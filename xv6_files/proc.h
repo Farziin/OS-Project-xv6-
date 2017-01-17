@@ -68,6 +68,7 @@ struct proc {
   int etime;                   // end time
   int lastref;
   int quanta_used;
+  int priority;
 };
 
 // Process memory is laid out contiguously, low addresses first:

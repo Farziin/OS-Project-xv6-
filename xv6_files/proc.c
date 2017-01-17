@@ -12,6 +12,10 @@
 #define GRT 3
 #define MLQ 4
 
+#define PRIORITY_G 10
+#define PRIORITY_FRR 5
+#define PRIORITY_RR 1
+
 
 struct {
     struct spinlock lock;
@@ -97,6 +101,7 @@ allocproc(void)
 
 found:
   p->state = EMBRYO;
+  p->priority = PRIORITY_G;
   p->pid = nextpid++;
 
     //MANUALLY ADDED
@@ -429,7 +434,30 @@ find_GRT(void){
 
 int
 find_MLQ(void){
-    return -1;
+    struct proc *nnp;
+    int to_exec = -1;
+    int minref = ticks;
+    for(nnp = ptable.proc; nnp < &ptable.proc[NPROC]; nnp++) {
+        if (nnp->state == RUNNABLE && nnp->priority == PRIORITY_G){
+            to_exec = nnp->pid;
+        }
+    }
+    if (to_exec == -1){
+        for(nnp = ptable.proc; nnp < &ptable.proc[NPROC]; nnp++){
+            if(nnp->state == RUNNABLE && nnp->priority == PRIORITY_FRR){
+                if (nnp->lastref < minref)
+                    to_exec = nnp->pid;
+            }   
+        }
+    }
+    if (to_exec == -1){
+        for(nnp = ptable.proc; nnp < &ptable.proc[NPROC]; nnp++) {
+            if (nnp->state == RUNNABLE && nnp->priority == PRIORITY_RR){
+                to_exec = nnp->pid;
+            }
+        }
+    }
+    return to_exec;
 }
 
 //PAGEBREAK: 42
