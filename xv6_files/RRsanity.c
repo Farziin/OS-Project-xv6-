@@ -12,7 +12,7 @@ void
 print_sth(int number)
 {
     int i;
-    for (i = 0; i < N; ++i) {
+    for (i = 0; i < N; i++) {
         printf(1, "Child %d prints for the %d time.\n", number, i);
     }
 
@@ -36,12 +36,12 @@ RRsanity(void)
     }
 
     int j;
-    for (j = 0; j < CHILD_NUMBER; ++j) {
+    for (j = 0; j < CHILD_NUMBER; j++) {
         wait2(&wTime[j], &rTime[j]);
     }
 
     int k;
-    for (k = 0; k < CHILD_NUMBER; ++k) {
+    for (k = 0; k < CHILD_NUMBER; k++) {
         printf(1, "The waittime of %d child is %d\n", k, wTime[k]);
         printf(1, "The runtime of %d child is %d\n", k, rTime[k]);
         printf(1, "The turn around time of %d child is %d\n", k, (wTime[k] + rTime[k]));

@@ -12,7 +12,7 @@ void
 print_sth(int number)
 {
     int i;
-    for (i = 0; i < N; ++i) {
+    for (i = 0; i < N; i++) {
         printf(1, "%d\n", number);
     }
 
@@ -50,7 +50,7 @@ sanity(void)
     int avg_turnaround_time;
     int avg_wtime;
     int w_temp = 0, r_temp = 0;
-    for (i = 0; i < CHILD_NUMBER; ++i) {
+    for (i = 0; i < CHILD_NUMBER; i++) {
         w_temp += wTime[i];
         r_temp += rTime[i];
     }
@@ -90,13 +90,13 @@ sanity(void)
     avgq_wtime[2] = w_temp2/CHILD_NUMBER;
 
     int m;
-    for (m = 0; m < 3; ++m) {
+    for (m = 0; m < 3; m++) {
         printf(1, "The average turn around time of queue #%d is: %d\n", m, avgq_turnaround_time[m]);
         printf(1, "The average wait time of queue #%d is: %d\n", m, avgq_wtime[m]);
     }
 
     int k;
-    for (k = 0; k < CHILD_NUMBER; ++k) {
+    for (k = 0; k < CHILD_NUMBER; k++) {
         printf(1, "The waittime of %d child is %d\n", k, wTime[k]);
         printf(1, "The turn around time of %d child is %d\n", k, (wTime[k] + rTime[k]));
     }

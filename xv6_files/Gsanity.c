@@ -10,7 +10,7 @@ void
 print_sth()
 {
     int i;
-    for (i = 0; i < N; ++i) {
+    for (i = 0; i < N; i++) {
         printf(1, "process %d is printing for the %d time.\n", getpid(), i);
     }
 
