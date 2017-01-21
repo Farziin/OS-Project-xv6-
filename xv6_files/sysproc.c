@@ -1,4 +1,4 @@
-#include "zconf.h"
+//#include "zconf.h"
 #include "types.h"
 #include "x86.h"
 #include "defs.h"
