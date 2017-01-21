@@ -25,7 +25,8 @@ struct queue {
 } q;
 
 void q_init() {
-    for (int i = 0; i < NPROC; ++i) {
+    int i;
+    for (i= 0; i < NPROC; ++i) {
         q.arr[i] = -1;
     }
     q.initialized = 1;
@@ -34,7 +35,8 @@ void q_init() {
 void q_enqueue(int a) {
     if (q.initialized == 0)
         q_init();
-    for (int i = 0; i < NPROC; i++) {
+    int i;
+    for (i = 0; i < NPROC; i++) {
         if (q.arr[i] == -1){
             q.arr[i] = a;
 //            cprintf("ENQUEED #%d at index %d\n", a, i);
@@ -47,7 +49,8 @@ int q_dequeue() {
     if (q.initialized == 0)
         q_init();
     int res = q.arr[0];
-    for (int j = 1; j <NPROC; j++) {
+    int j;
+    for (j = 1; j <NPROC; j++) {
         q.arr[j-1] = q.arr[j];
     }
     q.arr[NPROC-1] = -1;
